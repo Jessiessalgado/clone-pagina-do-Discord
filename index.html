@@ -9,7 +9,10 @@
 <body>
   <header>
     <div class="logo" tabindex="0">Discord</div>
-    <nav aria-label="Menu principal">
+    <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+      <span class="hamburger"></span>
+    </button>
+    <nav id="nav-menu" aria-label="Menu principal">
       <ul>
         <li><a href="#" tabindex="0">Baixar</a></li>
         <li><a href="#" tabindex="0">Nitro</a></li>
@@ -48,5 +51,7 @@
   <footer>
     &copy; 2025 Discord Clone por Jessica Salgado
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
